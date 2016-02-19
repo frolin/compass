@@ -2027,7 +2027,7 @@ html, body {
 .page_contacts, .page_price {
   height: calc(100% - 225px);
   position: absolute;
-  top: 127px;
+  top: 143px;
   bottom: 240px;
 }
 
@@ -2059,9 +2059,9 @@ footer {
 }
 @media (min-width: 721px) {
   .page_contacts, .page_price {
-    height: calc(100% - 225px);
+    height: calc(100% - 240px);
     position: absolute;
-    top: 127px;
+    top: 141px;
     bottom: 240px;
   }
 }
@@ -2158,8 +2158,8 @@ html {
 }
 @media (min-width: 721px) {
   html {
-    font-size: 131.25%;
-    line-height: 1em;
+    font-size: 112.5%;
+    line-height: 1.16667em;
   }
 }
 /*DEBUG*/
@@ -2171,49 +2171,49 @@ html {
 
 h1, h2, h3, h4, p, iframe {
   margin-bottom: 21px;
-  margin-bottom: 1rem;
+  margin-bottom: 1.16667rem;
 }
 
 h1 {
-  font-size: 66px;
+  font-size: 57px;
   font-size: 3.157rem;
-  line-height: 84px;
-  line-height: 4rem;
+  line-height: 63px;
+  line-height: 3.5rem;
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 43px;
   font-size: 2.369rem;
   line-height: 63px;
-  line-height: 3rem;
+  line-height: 3.5rem;
 }
 
 h3 {
-  font-size: 37px;
+  font-size: 32px;
   font-size: 1.777rem;
   line-height: 42px;
-  line-height: 2rem;
+  line-height: 2.33333rem;
 }
 
 h4 {
-  font-size: 24px;
+  font-size: 20px;
   font-size: 1.133rem;
   line-height: 42px;
-  line-height: 2rem;
+  line-height: 2.33333rem;
 }
 
 h5 {
-  font-size: 21px;
+  font-size: 18px;
   font-size: 1rem;
   line-height: 42px;
-  line-height: 2rem;
+  line-height: 2.33333rem;
 }
 
 h6 {
-  font-size: 16px;
+  font-size: 14px;
   font-size: 0.75rem;
   line-height: 21px;
-  line-height: 1rem;
+  line-height: 1.16667rem;
 }
 
 a {
@@ -2391,6 +2391,8 @@ h3.baloon-title {
 
   .sitenane_name {
     display: block;
+    font-size: 1.2rem;
+    margin-top: 5px;
   }
 }
 .block_contacts {
@@ -2413,7 +2415,8 @@ h3.baloon-title {
 }
 
 .contacts_phone__work-hours {
-  font-size: .7rem;
+  font-size: .8rem;
+  font-weight: bold;
 }
 
 @media (min-width: 200px) and (max-width: 460px) {
@@ -2496,17 +2499,32 @@ h3.baloon-title {
   }
 
   .contacts_phone__telnum {
-    position: static;
+    position: relative;
+    display: block;
   }
 }
 @media (min-width: 721px) {
   .contacts_phone__work-hours {
     display: block;
-    font-size: .8rem;
+    font-size: .9rem;
   }
 
   .contacts_phone__telnum {
-    position: static;
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 63px;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+
+  .contacts_phone__telnum2 {
+    position: absolute;
+    display: block;
+    top: 50px;
+    left: 63px;
+    font-size: 1.6rem;
+    font-weight: bold;
   }
 
   a.contacts_phone__call_btn {
@@ -2552,6 +2570,8 @@ h3.baloon-title {
 
   .contacts_address__street {
     display: block;
+    font-size: 1rem;
+    line-height: 2rem;
   }
 
   .contacts_address__to-route {
@@ -2582,11 +2602,26 @@ h3.baloon-title {
     z-index: 1;
   }
 
-  a.contacts_address__to-route {
-    font-size: .9rem;
-    display: inline;
+  .contacts_address__city-name {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    font-size: 2rem;
+    left: 24px;
+  }
+
+  .contacts_address__street {
+    display: block;
+    font-size: 1rem;
     border-bottom: 1px dashed grey;
-    color: #948686;
+    margin-top: 7px;
+  }
+
+  a.contacts_address__to-route {
+    display: inline;
+    font-weight: bold;
+    border-bottom: 1px dashed grey;
+    color: #373737;
     -webkit-transition: all,.1s;
     -moz-transition: all,.1s;
     -ms-transition: all,.1s;
@@ -2608,16 +2643,17 @@ h3.baloon-title {
 }
 
 header {
-  height: 127px;
+  height: 140px;
   width: 100%;
   color: #373737;
   background-color: white;
   box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.06);
+  font-size: 1.1rem;
 }
 
 .header_inner {
   max-width: 1110px;
-  max-width: 52.85714rem;
+  max-width: 61.66667rem;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -2668,7 +2704,7 @@ header {
     position: absolute;
     top: 0px;
     left: -38px;
-    background-size: 28px;
+    background-size: 45px;
   }
 
   .social_vk {
@@ -2732,14 +2768,14 @@ header {
   .header_contacts__address {
     position: relative;
     margin-top: 21px;
-    margin-top: 1rem;
+    margin-top: 1.16667rem;
     line-height: 1rem;
   }
 
   .header_contacts__phone {
     position: relative;
     margin-top: 21px;
-    margin-top: 1rem;
+    margin-top: 1.16667rem;
     line-height: 1rem;
   }
 }
@@ -2835,7 +2871,7 @@ header {
 @media (min-width: 721px) {
   .header__inner {
     max-width: 960px;
-    max-width: 45.71429rem;
+    max-width: 53.33333rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -2876,10 +2912,11 @@ header {
     text-align: center;
     height: 100%;
     z-index: 2;
+    top: 15px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    width: 10.33333%;
+    width: 16.66667%;
     float: left;
     padding-left: 0.83333%;
     padding-right: 0.83333%;
@@ -2899,17 +2936,19 @@ header {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    width: 50%;
+    width: 33.33333%;
     float: left;
     padding-left: 0.83333%;
     padding-right: 0.83333%;
+    padding-left: 9.16667%;
   }
 
   .header_contacts__phone {
+    padding-right: 9.16667%;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    width: 50%;
+    width: 33.33333%;
     float: right;
     padding-left: 0.83333%;
     padding-right: 0.83333%;
@@ -2919,7 +2958,17 @@ header {
     text-align: center;
     height: 100%;
     position: relative;
-    top: 15px;
+    top: 20px;
+  }
+
+  .metka-icon {
+    background-size: 45px;
+    background-position: 0px;
+  }
+
+  .phone-icon {
+    background-size: 45px;
+    background-position: 0px;
   }
 }
 .price-menu {
@@ -2934,7 +2983,7 @@ header {
 ul.price-nav {
   list-style-type: none;
   max-width: 960px;
-  max-width: 45.71429rem;
+  max-width: 53.33333rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -3065,7 +3114,7 @@ ul.price-nav li .label {
 @media (min-width: 721px) {
   .price-menu {
     background-color: #34495e;
-    height: 130px;
+    height: 120px;
     -webkit-box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
     -moz-box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
     box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
@@ -3075,7 +3124,7 @@ ul.price-nav li .label {
   ul.price-nav {
     list-style-type: none;
     max-width: 960px;
-    max-width: 45.71429rem;
+    max-width: 53.33333rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -3135,7 +3184,8 @@ ul.price-nav li .label {
     color: white;
     border-bottom: 1px dashed #ffffff;
     font-size: 1rem;
-    line-height: 1rem;
+    line-height: 1.1rem;
+    margin-top: 5px;
   }
 
   .price-nav li {
@@ -3146,37 +3196,37 @@ ul.price-nav li .label {
   .price-nav .icon {
     background-position: 50% 50%;
     height: 65px;
-    background-size: 64%;
+    background-size: 71%;
     width: 100%;
   }
 
   .price-nav .icon-to {
-    background-size: 55%;
+    background-size: 62%;
     background-position: 50% 5px;
   }
   .price-nav .icon-remont {
-    background-size: 55%;
-    background-position: 50% 0px;
-  }
-  .price-nav .icon-custom {
-    background-size: 55%;
-    background-position: 50% -10px;
-  }
-  .price-nav .icon-mount {
-    background-size: 55%;
+    background-size: 62%;
     background-position: 50% -5px;
   }
+  .price-nav .icon-custom {
+    background-size: 62%;
+    background-position: 50% -18px;
+  }
+  .price-nav .icon-mount {
+    background-size: 62%;
+    background-position: 50% -10px;
+  }
   .price-nav .icon-wash {
-    background-size: 55%;
-    background-position: 50% 5px;
+    background-size: 62%;
+    background-position: 50% 0px;
   }
   .price-nav .icon-paint {
-    background-size: 55%;
-    background-position: 50% 0px;
+    background-size: 54%;
+    background-position: 50% 3px;
   }
 
   .price-nav span {
-    padding-top: 10px;
+    padding-top: 4px;
     font-size: 1rem;
   }
 
@@ -3237,7 +3287,7 @@ ul.price-nav li .label {
 
 .price-page {
   max-width: 960px;
-  max-width: 45.71429rem;
+  max-width: 53.33333rem;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -3290,7 +3340,7 @@ article td:first-child h5 {
     background-color: white;
     height: calc(100% - 50px);
     max-width: 960px;
-    max-width: 45.71429rem;
+    max-width: 53.33333rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -3365,7 +3415,7 @@ article td:first-child h5 {
 
   article tr.main {
     max-width: 960px;
-    max-width: 45.71429rem;
+    max-width: 53.33333rem;
     margin-left: auto;
     margin-right: auto;
     margin-left: auto;
@@ -3400,7 +3450,7 @@ article td:first-child h5 {
 
   article table thead tr.main {
     max-width: 960px;
-    max-width: 45.71429rem;
+    max-width: 53.33333rem;
     margin-left: auto;
     margin-right: auto;
     margin-left: auto;
@@ -3418,7 +3468,7 @@ article td:first-child h5 {
   }
   article table thead tr.sub {
     max-width: 960px;
-    max-width: 45.71429rem;
+    max-width: 53.33333rem;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -3590,7 +3640,7 @@ article td:first-child h5 {
 
   article tr.main {
     max-width: 960px;
-    max-width: 45.71429rem;
+    max-width: 53.33333rem;
     margin-left: auto;
     margin-right: auto;
     margin-left: auto;
@@ -3626,7 +3676,7 @@ article td:first-child h5 {
 
   article table thead tr.main {
     max-width: 960px;
-    max-width: 45.71429rem;
+    max-width: 53.33333rem;
     margin-left: auto;
     margin-right: auto;
     margin-left: auto;
@@ -3645,7 +3695,7 @@ article td:first-child h5 {
   }
   article table thead tr.sub {
     max-width: 960px;
-    max-width: 45.71429rem;
+    max-width: 53.33333rem;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -3810,7 +3860,7 @@ article td:first-child h5 {
 
   article tr.main {
     max-width: 960px;
-    max-width: 45.71429rem;
+    max-width: 53.33333rem;
     margin-left: auto;
     margin-right: auto;
     margin-left: auto;
@@ -3846,7 +3896,7 @@ article td:first-child h5 {
 
   article table thead tr.main {
     max-width: 960px;
-    max-width: 45.71429rem;
+    max-width: 53.33333rem;
     margin-left: auto;
     margin-right: auto;
     margin-left: auto;
@@ -3865,7 +3915,7 @@ article td:first-child h5 {
   }
   article table thead tr.sub {
     max-width: 960px;
-    max-width: 45.71429rem;
+    max-width: 53.33333rem;
     margin-left: auto;
     margin-right: auto;
     width: 100%;

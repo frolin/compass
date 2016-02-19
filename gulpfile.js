@@ -241,7 +241,7 @@ gulp.task('watch', ['browser-sync'], function() {
     gulp.watch(['app/assets/src/javascripts/*.coffee','app/assets/src/javascripts/custom/*.js'], ['lint', 'scripts:build']);
     //gulp.watch('app/assets/src/sass/*.mobile.scss', ['app_mobile_style:build']);
     //gulp.watch('app/assets/src/sass/*/**.mobile.scss', ['app_mobile_style:build']);
-    gulp.watch('app/assets/src/sass/**', ['app_style:build', 'autoprefixer']);
+    gulp.watch('app/assets/src/sass/**', ['app_style:build']);
     gulp.watch('app/assets/src/images/*', ['images']);
     gulp.watch('app/views/*/**').on('change', browserSync.reload);
 
