@@ -20,7 +20,8 @@
 
 .contacts_phone__work-hours {
   //bottom: 40px;
-  font-size: .7rem;
+  font-size: .8rem;
+  font-weight: bold;
 
 }
 
@@ -233,9 +234,12 @@
   .contacts_phone__work-hours {
     display: block;
     font-size: .8rem;
+
+
   }
   .contacts_phone__telnum {
-    position: static;
+    position: relative;
+    display: block;
   }
 }
 
@@ -243,10 +247,23 @@
 
   .contacts_phone__work-hours {
     display: block;
-    font-size: .8rem;
+    font-size: .9rem;
   }
   .contacts_phone__telnum {
-    position: static;
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 63px;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  .contacts_phone__telnum2 {
+    position: absolute;
+    display: block;
+    top: 50px;
+    left: 63px;
+    font-size: 1.6rem;
+    font-weight: bold;
   }
   a.contacts_phone__call_btn  {
     display: block;

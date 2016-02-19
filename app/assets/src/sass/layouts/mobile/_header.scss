@@ -115,7 +115,7 @@ header {
     @include span(last 6 of 6);
     text-align: left;
   }
-  .header_contacts__phone,  {
+  .header_contacts__phone  {
     @include span(last 6 of 6);
     text-align: left;
   }
@@ -183,12 +183,12 @@ header {
   .header_contacts__address {
     @include span(4 of 8);
   }
-  .header_contacts__phone,  {
+  .header_contacts__phone  {
     @include span(last 4 of 8);
   }
 
   .header_contacts__address,
-  .header_contacts__phone, {
+  .header_contacts__phone {
     text-align: center;
     height: 100%;
     position: relative;

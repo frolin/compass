@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AACA,YAAa;EACP,SAAS,EAAE,GAAG;EACd,KAAK,EAAE,wBAAwB;;AAC/B,cAAE;EAAC,MAAM,EAAE,CAAC;;AACZ,cAAE;EACA,KAAK,EAAE,wBAAwB;EAC/B,aAAa,EAAE,mCAAmC;;;AAMxD,UAAW;EACT,IAAI,EAAE,IAAI;EACV,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,CAAC;;;AAEX,WAAY;EACV,UAAU,EAAE,KAAK;EACjB,UAAU,EAAE,MAAM;EAClB,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,CAAC",
-"sources": ["../sass/layouts/partials/_footer.scss"],
+"mappings": "",
+"sources": [],
 "names": [],
 "file": "application.css"
 }

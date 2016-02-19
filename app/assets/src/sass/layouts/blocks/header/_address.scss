@@ -54,6 +54,8 @@
   }
   .contacts_address__street {
     display: block;
+    font-size: 1rem;
+    line-height: 2rem;
   }
   .contacts_address__to-route {display: block;}
   .contacts_address__to-route  {
@@ -83,6 +85,19 @@
     height: 100%;
     z-index: 1;
   }
+  .contacts_address__city-name {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    font-size: 2rem;
+    left: 24px;
+  }
+  .contacts_address__street {
+    display: block;
+    font-size: 1rem;
+    border-bottom: 1px dashed grey;
+    margin-top: 7px;
+  }
 
 
   //.contacts_address__city-name {
@@ -93,10 +108,11 @@
   // }
 
   a.contacts_address__to-route {
-    font-size: .9rem;
+
     display: inline;
+    font-weight: bold;
     border-bottom: 1px dashed grey;
-    color: #948686;
+    color: #373737;
     -webkit-transition: all,.1s;
     -moz-transition: all,.1s;
     -ms-transition: all,.1s;

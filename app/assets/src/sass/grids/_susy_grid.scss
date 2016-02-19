@@ -10,7 +10,7 @@
 .page_contacts, .page_price  {
   height: calc(100% - 225px);
   position: absolute;
-  top: 127px;
+  top: 143px;
   bottom: 240px;
 }
 
@@ -53,9 +53,9 @@ footer {
 @include susy-breakpoint($desktop-size, $large) {
 
   .page_contacts, .page_price  {
-    height: calc(100% - 225px);
+    height: calc(100% - 240px);
     position: absolute;
-    top: 127px;
+    top: 141px;
     bottom: 240px;
   }
 
