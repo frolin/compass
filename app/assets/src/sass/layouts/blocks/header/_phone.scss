@@ -248,22 +248,22 @@
   .contacts_phone__work-hours {
     display: block;
     font-size: .9rem;
+    left: 50px;
+    position: relative;
+
   }
   .contacts_phone__telnum {
-    position: absolute;
     display: block;
-    top: 0px;
-    left: 63px;
-    font-size: 1.6rem;
+    position: relative;
+    font-size: 1.5rem;
     font-weight: bold;
   }
   .contacts_phone__telnum2 {
-    position: absolute;
     display: block;
-    top: 50px;
-    left: 63px;
-    font-size: 1.6rem;
+    position: relative;
+    font-size: 1.5rem;
     font-weight: bold;
+    margin-top: 2px;
   }
   a.contacts_phone__call_btn  {
     display: block;

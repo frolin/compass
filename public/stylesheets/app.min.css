@@ -2159,7 +2159,7 @@ html {
 @media (min-width: 721px) {
   html {
     font-size: 112.5%;
-    line-height: 1.16667em;
+    line-height: 1.44444em;
   }
 }
 /*DEBUG*/
@@ -2170,50 +2170,50 @@ html {
 }
 
 h1, h2, h3, h4, p, iframe {
-  margin-bottom: 21px;
-  margin-bottom: 1.16667rem;
+  margin-bottom: 26px;
+  margin-bottom: 1.44444rem;
 }
 
 h1 {
   font-size: 57px;
   font-size: 3.157rem;
-  line-height: 63px;
-  line-height: 3.5rem;
+  line-height: 78px;
+  line-height: 4.33333rem;
 }
 
 h2 {
   font-size: 43px;
   font-size: 2.369rem;
-  line-height: 63px;
-  line-height: 3.5rem;
+  line-height: 52px;
+  line-height: 2.88889rem;
 }
 
 h3 {
   font-size: 32px;
   font-size: 1.777rem;
-  line-height: 42px;
-  line-height: 2.33333rem;
+  line-height: 52px;
+  line-height: 2.88889rem;
 }
 
 h4 {
   font-size: 20px;
   font-size: 1.133rem;
-  line-height: 42px;
-  line-height: 2.33333rem;
+  line-height: 26px;
+  line-height: 1.44444rem;
 }
 
 h5 {
   font-size: 18px;
   font-size: 1rem;
-  line-height: 42px;
-  line-height: 2.33333rem;
+  line-height: 26px;
+  line-height: 1.44444rem;
 }
 
 h6 {
   font-size: 14px;
   font-size: 0.75rem;
-  line-height: 21px;
-  line-height: 1.16667rem;
+  line-height: 26px;
+  line-height: 1.44444rem;
 }
 
 a {
@@ -2365,15 +2365,13 @@ h3.baloon-title {
 }
 @media (min-width: 721px) {
   .header_logo {
-    top: 3px;
+    top: 15px;
   }
 
   .header_logo img {
     position: relative;
-    line-height: 100%;
     margin: 0 auto;
-    height: 68px;
-    top: 0px;
+    height: 80px;
   }
 
   .header_logo__sitename {
@@ -2384,9 +2382,10 @@ h3.baloon-title {
 
   .sitename_name__strong {
     display: block;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: .8rem;
-    margin-top: 10px;
+    margin-top: 15px;
+    font-family: BebasBold;
   }
 
   .sitenane_name {
@@ -2507,24 +2506,23 @@ h3.baloon-title {
   .contacts_phone__work-hours {
     display: block;
     font-size: .9rem;
+    left: 50px;
+    position: relative;
   }
 
   .contacts_phone__telnum {
-    position: absolute;
     display: block;
-    top: 0px;
-    left: 63px;
-    font-size: 1.6rem;
+    position: relative;
+    font-size: 1.5rem;
     font-weight: bold;
   }
 
   .contacts_phone__telnum2 {
-    position: absolute;
     display: block;
-    top: 50px;
-    left: 63px;
-    font-size: 1.6rem;
+    position: relative;
+    font-size: 1.5rem;
     font-weight: bold;
+    margin-top: 2px;
   }
 
   a.contacts_phone__call_btn {
@@ -2603,25 +2601,25 @@ h3.baloon-title {
   }
 
   .contacts_address__city-name {
-    position: absolute;
-    right: 0;
-    top: 20px;
+    position: relative;
     font-size: 2rem;
-    left: 24px;
+    top: 17px;
+    left: -6px;
   }
 
   .contacts_address__street {
-    display: block;
+    display: inline;
     font-size: 1rem;
     border-bottom: 1px dashed grey;
-    margin-top: 7px;
+    position: relative;
+    top: 7px;
   }
 
   a.contacts_address__to-route {
     display: inline;
     font-weight: bold;
-    border-bottom: 1px dashed grey;
     color: #373737;
+    font-size: .9rem;
     -webkit-transition: all,.1s;
     -moz-transition: all,.1s;
     -ms-transition: all,.1s;
@@ -2630,7 +2628,6 @@ h3.baloon-title {
   }
   a.contacts_address__to-route:hover {
     color: #C54B4B;
-    border-bottom: 1px dashed black;
   }
 }
 .metka-icon {
@@ -2646,14 +2643,15 @@ header {
   height: 140px;
   width: 100%;
   color: #373737;
-  background-color: white;
   box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.06);
   font-size: 1.1rem;
+  background-position: 0 61px;
+  background-size: 79%;
 }
 
 .header_inner {
-  max-width: 1110px;
-  max-width: 61.66667rem;
+  max-width: 960px;
+  max-width: 53.33333rem;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -2668,7 +2666,7 @@ header {
 .social_vk {
   position: absolute;
   top: -7px;
-  right: 80px;
+  right: -5%;
   width: 58px;
   display: block;
   box-shadow: 0px 2px 9px 1px rgba(52, 73, 94, 0.35);
@@ -2710,7 +2708,7 @@ header {
   .social_vk {
     position: absolute;
     top: 57px;
-    right: 0px;
+    right: -5%;
     width: 33px;
     display: block;
     box-shadow: 0px 2px 9px 1px rgba(52, 73, 94, 0.35);
@@ -2767,15 +2765,15 @@ header {
 
   .header_contacts__address {
     position: relative;
-    margin-top: 21px;
-    margin-top: 1.16667rem;
+    margin-top: 26px;
+    margin-top: 1.44444rem;
     line-height: 1rem;
   }
 
   .header_contacts__phone {
     position: relative;
-    margin-top: 21px;
-    margin-top: 1.16667rem;
+    margin-top: 26px;
+    margin-top: 1.44444rem;
     line-height: 1rem;
   }
 }
@@ -2892,12 +2890,13 @@ header {
   .social_vk {
     position: absolute;
     top: -7px;
-    right: 3%;
+    right: -5%;
     width: 58px;
     display: block;
     box-shadow: 0px 2px 9px 1px rgba(52, 73, 94, 0.35);
     z-index: 999;
     transition: .5s;
+    display: none;
   }
   .social_vk:hover {
     transition: .5s;
@@ -2940,35 +2939,43 @@ header {
     float: left;
     padding-left: 0.83333%;
     padding-right: 0.83333%;
-    padding-left: 9.16667%;
+    margin-right: 16.66667%;
   }
 
   .header_contacts__phone {
-    padding-right: 9.16667%;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    width: 33.33333%;
+    width: 25%;
     float: right;
     padding-left: 0.83333%;
     padding-right: 0.83333%;
   }
 
-  .header_contacts__address, .header_contacts__phone {
-    text-align: center;
-    height: 100%;
+  .header_contacts__address {
     position: relative;
-    top: 20px;
+    top: 35px;
+  }
+
+  .header_contacts__phone {
+    top: 40px;
+    position: relative;
   }
 
   .metka-icon {
     background-size: 45px;
-    background-position: 0px;
+    background-position: 0px 4px;
+    float: left;
+    width: 50px;
+    height: 44px;
   }
 
   .phone-icon {
     background-size: 45px;
     background-position: 0px;
+    float: left;
+    width: 50px;
+    height: 50px;
   }
 }
 .price-menu {
@@ -3114,7 +3121,7 @@ ul.price-nav li .label {
 @media (min-width: 721px) {
   .price-menu {
     background-color: #34495e;
-    height: 120px;
+    height: 123px;
     -webkit-box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
     -moz-box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
     box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);

@@ -52,16 +52,13 @@
 @include susy-breakpoint($desktop-size, $large ) {
 
   .header_logo {
-    top:3px;
+    top:15px;
   }
 
   .header_logo img {
     position: relative;
-    line-height: 100%;
     margin: 0 auto;
-    height: 68px;
-    top: 0px;
-
+    height: 80px;
   }
 
   .header_logo__sitename{
@@ -72,9 +69,10 @@
 
   .sitename_name__strong {
     display: block;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: .8rem;
-    margin-top: 10px;
+    margin-top: 15px;
+    font-family: BebasBold;
   }
 
   .sitenane_name {

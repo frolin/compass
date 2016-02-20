@@ -42,7 +42,7 @@ $rem-with-px-fallback: true !global;
 
 @include breakpoint($desktop-size) {
   $base-font-size: 18px !global;
-  $base-line-height: 21px!global;
+  $base-line-height: 26px!global;
   $rhythm-unit: "rem"!global;
   $rem-with-px-fallback: true!global;
   @include establish-baseline();
@@ -52,9 +52,9 @@ header {
   //@include debug-vertical-alignment();
 }
 
-article .body{
-  //@include debug-vertical-alignment();
-}
+//article .body{
+//  //@include debug-vertical-alignment();
+//}
 
 /*DEBUG*/
   //body {@include debug-vertical-alignment();}
@@ -66,10 +66,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-.pt-wrapper, header, article {
-  //@include debug-vertical-alignment;
-}
+//
 
 
 

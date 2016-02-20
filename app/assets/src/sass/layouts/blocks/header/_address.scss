@@ -86,17 +86,17 @@
     z-index: 1;
   }
   .contacts_address__city-name {
-    position: absolute;
-    right: 0;
-    top: 20px;
+    position: relative;
     font-size: 2rem;
-    left: 24px;
+    top: 17px;
+    left: -6px;
   }
   .contacts_address__street {
-    display: block;
+    display: inline;
     font-size: 1rem;
     border-bottom: 1px dashed grey;
-    margin-top: 7px;
+    position: relative;
+    top: 7px;
   }
 
 
@@ -111,8 +111,8 @@
 
     display: inline;
     font-weight: bold;
-    border-bottom: 1px dashed grey;
     color: #373737;
+    font-size: .9rem;
     -webkit-transition: all,.1s;
     -moz-transition: all,.1s;
     -ms-transition: all,.1s;
@@ -121,7 +121,6 @@
 
       &:hover {
         color: #C54B4B;
-        border-bottom: 1px dashed rgb(0, 0, 0);
       }
   }
 

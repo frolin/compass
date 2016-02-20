@@ -14,12 +14,16 @@ header {
   height: 140px;
   width: 100%;
   color:#373737;
-  background-color: rgba(255, 255, 255, 1);
+  //background-color: rgba(255, 255, 255, 1);
   box-shadow: 0 1px 12px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.06);
   font-size: 1.1rem;
+  //background: inline-image("bg/shina.png");
+  background-position: 0 61px;
+  background-size: 79%;
+
 }
 .header_inner {
-  @include container(1110px);
+  @include container(960px);
   position: relative;
   height: 100%;
 }
@@ -27,7 +31,7 @@ header {
 .social_vk {
   position: absolute;
   top: -7px;
-  right: 80px;
+  right: -5%;
   width: 58px;
   display: block;
   box-shadow: 0px 2px 9px 1px rgba(52, 73, 94, 0.35);
@@ -80,7 +84,7 @@ header {
   .social_vk {
     position: absolute;
     top: 57px;
-    right: 0px;
+    right: -5%;
     width: 33px;
     display: block;
     box-shadow: 0px 2px 9px 1px rgba(52, 73, 94, 0.35);
@@ -211,7 +215,7 @@ header {
 @include susy-breakpoint($desktop-size, $large ) {
 
   .header__inner {
-    @include container(1140)
+    @include container(960px);
   }
 
   .icon {
@@ -225,12 +229,13 @@ header {
   .social_vk {
     position: absolute;
     top: -7px;
-    right: 3%;
+    right: -5%;
     width: 58px;
     display: block;
     box-shadow: 0px 2px 9px 1px rgba(52, 73, 94, 0.35);
     z-index: 999;
     transition: .5s;
+    display: none;
 
     &:hover {
       transition: .5s;
@@ -256,26 +261,35 @@ header {
   }
   .header_contacts__address {
     @include span(4);
-    @include prefix(1);
+    @include post(2);
   }
   .header_contacts__phone {
-    @include suffix(1);
-    @include span(last 4);
+    @include span(last 3);
+
   }
-  .header_contacts__address, .header_contacts__phone {
-    text-align: center;
-    height: 100%;
+  .header_contacts__address, {
     position: relative;
-    top: 20px;
+    top: 35px;
+  }
+  .header_contacts__phone {
+    top: 40px;
+    position: relative;
+
   }
 
   .metka-icon {
     background-size: 45px;
-    background-position: 0px ;
+    background-position: 0px 4px;
+    float: left;
+    width: 50px;
+    height: 44px
   }
   .phone-icon {
     background-size: 45px;
     background-position: 0px ;
+    float: left;
+    width: 50px;
+    height: 50px;
   }
 
 
