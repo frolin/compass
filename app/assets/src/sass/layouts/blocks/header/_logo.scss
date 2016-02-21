@@ -3,10 +3,9 @@
 
   .header_logo {
     top:0px;
-    width: 20%;
-    max-width: 70px;
+    width: 70px;
 
-    img {width: 60px;}
+    img {width: 60px; height: 40px;}
 
   }
 
@@ -14,11 +13,23 @@
     color: #373737;
     position: relative;
     line-height: 1rem;
+    font-weight: bold;
     display: block;
     top:5px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    font-family: BebasBold;
+
 
   }
+  .sitenane_name {
+    display: block;
+    font-size: 1rem;
+    line-height: .8rem;
+    margin-top: 0px;
+    font-family: BebasBold;
+  }
+
+
 }
 
 @include susy-breakpoint($tablet-size, $tablet ) {
@@ -71,14 +82,15 @@
     display: block;
     font-size: 1.4rem;
     line-height: .8rem;
-    margin-top: 15px;
+    margin-top: 7px;
     font-family: BebasBold;
   }
 
   .sitenane_name {
     display: block;
-    font-size: 1.2rem;
-    margin-top: 5px;
+    font-size: 1rem;
+    margin-top: 0px;
+    font-weight: bold;
   }
 
 }

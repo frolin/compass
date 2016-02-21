@@ -7,29 +7,23 @@
 				%img{:itemprop => 'logo', :src => '/images/header/logo.svg'}
 				%span.header_logo__sitename{:itemprop => 'name'}
 					%strong.sitename_name__strong АвтоСервис
-					%span.sitenane_name 24
+					%span.sitenane_name На Юнатов
 		%meta{:itemscope => true, :itemprop => 'hasMap', :itemtype => 'http://schema.org/Map', :itemref => 'to-route'}
 		.header_contacts
 			.header_contacts__address{:itemprop => 'address', :itemscope => true, :itemtype => 'http://schema.org/PostalAddress'}
 				.header_contacts__address___inner
 					%i.icon.metka-icon
 					%span.contacts_address__city-name{:itemprop => 'addressRegion'} Москва,
-						%span.contacts_address__street{:itemprop => 'streetAddress'}
-						Петровско-разумовский пр-зд
-						%span
-							%br
-							д.29, стр.18
-					#to-route
-						%a{:class => 'contacts_address__to-route', :itemprop => 'url',
-							href: 'https://maps.yandex.ru/213/moscow/?source=wizbiz_new_map_single&text=%D0%9C%D0%B0%D1%81%D0%BB%D0%BE%D0%B2%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81&sll=37.739105%2C55.741830&sspn=0.016457%2C0.009284&sctx=BgAAAAEAnl4pyxDPQkCNKO0NvuBLQLOWAtL%2BB%2Bk%2FIAvRIXCk4D8CAAAAAQIBAAAAAAAAAAEBbcvgGZ%2Fyy9UAAAABAACAPw%3D%3D&ol=biz&oid=1556038160&rtext=~55.741830%2C37.739105&rtt=auto',
-							:target => '_blank_header.haml'} -  проложить маршрут  -
+					%span.contacts_address__street{:itemprop => 'streetAddress'}
+						Петровско-разумовский пр-зд д.29, стр.18
+
 			.header_contacts__phone
 
 				.header_contacts__phone___inner
 					%i.icon.phone-icon
-					%span.contacts_phone__telnum{:itemprop => 'telephone'}Тел. 8 (966) 044-33-33
-					%span.contacts_phone__telnum{:itemprop => 'telephone'}Тел. 8 (925) 409-64-86
-					%span.contacts_phone__work-hours{:itemprop => 'openingHours', :datetime => 'Mo-Su 24:00'} Прием авто: Круглосуточно
+					%span.contacts_phone__telnum{:itemprop => 'telephone'}8 (966) 044-33-33
+					%span.contacts_phone__telnum{:itemprop => 'telephone'}8 (925) 409-64-86
+					%span.contacts_phone__work-hours{:itemprop => 'openingHours', :datetime => 'Mo-Su 9:21'} часы работы: 9:00-21:00
 					%a.contacts_phone__call_btn{:href => "tel:+79660443333"}
 						%span.link_name -  Позвонить  -
 
