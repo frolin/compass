@@ -13,13 +13,17 @@ $phone_icon: inline-image('icons_svg/tel.svg');
 header {
   height: 140px;
   width: 100%;
-  color:#373737;
+  background-color: rgba(255,0,0,0.1);
+
   //background-color: rgba(255, 255, 255, 1);
   box-shadow: 0 1px 12px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.06);
   font-size: 1.1rem;
   //background: inline-image("bg/shina.png");
   background-position: 0 61px;
   background-size: 79%;
+  background: inline-image("bg/bg.jpg");
+  background-position: 100%;
+  background-repeat: repeat-x;
 
 }
 .header_inner {
@@ -43,51 +47,31 @@ header {
   header {
     height: 105px;
   }
-  //header.mobile .phone-icon {
-  //  position: relative;
-  //  top: 0px;
-  //  background-size: 32px;
-  //  background-position: 50% 50%;
-  //}
 
-  .social_vk {
-    position: absolute;
-    top: -7px;
-    right: -1%;
-    width: 58px;
-    display: block;
-    box-shadow: 0px 2px 9px 1px rgba(52, 73, 94, 0.35);
-    z-index: 999;
-    transition: .5s;
-
-    &:hover {
-      transition: .5s;
-      box-shadow: 0px 4px 9px 2px rgba(52, 73, 94, 0.5);
-
-    }
-    //
-  }
 
   .phone-icon {
     position: absolute;
-    display: inline-block;
-    float: left;
-    left: -38px;
-    top: 0px;
-    background-size: 28px;
+    top: -3px;
+    left: -35px;
+    background-size: 32px;
+    height: 30px;
+    width: 30px;
+
   }
 
   .metka-icon {
     position: absolute;
-    top: 0px;
-    left: -38px;
-    background-size: 45px;
+    top: -3px;
+    left: -27px;
+    background-size: 32px;
+    height: 30px;
+    width: 30px;
   }
 
   .social_vk {
     position: absolute;
     top: 57px;
-    right: -5%;
+    right: -1%;
     width: 33px;
     display: block;
     box-shadow: 0px 2px 9px 1px rgba(52, 73, 94, 0.35);
@@ -108,34 +92,40 @@ header {
     text-align: center;
     z-index: 2;
     float: left;
-    width: 60px;
-    top: 5px;
+    width: 70px;
+    top: 15px;
   }
   .header_logo img {
     //height: 80px;
   }
   .header_contacts {
-    @include span(52%);
+    @include span(63%);
     float: right;
+    height: 100%;
+    padding-top: 2%;
   }
   .header_contacts__address {
     @include span(last 6 of 6);
     text-align: left;
+    height: 47%;
+
   }
   .header_contacts__phone  {
-    @include span(last 6 of 6);
+    @include span(6 of 6);
     text-align: left;
+    left: 30%;
+    height: 53%;
+    position: relative;
+    line-height: 1rem;
   }
   .header_contacts__address {
     position: relative;
-    @include margin-leader;
     line-height: 1rem;
 
   }
-  .header_contacts__phone {
-    position: relative;
-    @include margin-leader();
-    line-height: 1rem;
+
+  .contacts_address__street {
+   font-size: 1rem;
   }
 
 }
@@ -218,7 +208,6 @@ header {
 @include susy-breakpoint($desktop-size, $large ) {
 
   .header__inner {
-    @include container(960px);
   }
 
   .icon {
@@ -266,16 +255,29 @@ header {
     @include span(4);
     @include post(2);
   }
+
   .header_contacts__phone {
-    @include span(last 3);
+    @include span(6);
+    padding-top: 40px;
+    text-align: right;
+  }
+
+  .mobile .header_contacts__phone {
+    padding-top: 20px;
+  }
+
+  .header_contacts__phone__inner {
+    @include span(4 of 6);
+    text-align: right;
+
 
   }
+
   .header_contacts__address {
     position: relative;
     top: 35px;
   }
   .header_contacts__phone {
-    top: 40px;
     position: relative;
 
   }
@@ -293,6 +295,8 @@ header {
     float: left;
     width: 50px;
     height: 50px;
+    position: absolute;
+    right: 167px;
   }
 
 

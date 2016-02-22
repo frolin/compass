@@ -65,8 +65,7 @@ ul.price-nav li .label {
     }
    li {
 
-      height: 105px;
-
+     padding: 5px 0;
 
     }
     li:nth-child(1) {
@@ -98,7 +97,6 @@ ul.price-nav li .label {
 @include breakpoint($tablet-size) {
 
       .price-menu {
-        height: 105px;
         position: relative;
         //top: 8px;
       }

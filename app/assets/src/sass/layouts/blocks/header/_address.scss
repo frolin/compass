@@ -1,6 +1,4 @@
-.contacts_address__street {
-  white-space: nowrap;
-}
+
 
 
 @include susy-breakpoint($mobile-size, $mobile) {
@@ -18,8 +16,13 @@
   }
 
   .block_address__street{
-
+    white-space: normal
   }
+  .contacts_address__street {
+    font-size: .9rem;
+    white-space: normal;
+  }
+
   .contacts_address__city-name {
     display: block;
     font-weight: bold;
@@ -62,6 +65,7 @@
     display: block;
     font-size: 1rem;
     line-height: 2rem;
+      white-space: nowrap;
   }
   .contacts_address__to-route {display: block;}
   .contacts_address__to-route  {
@@ -99,6 +103,7 @@
   }
   .contacts_address__street {
     display: inline;
+    white-space: nowrap;
     font-size: 1rem;
     border-bottom: 1px dashed grey;
     position: relative;
