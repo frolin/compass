@@ -20,14 +20,9 @@ ActiveRecord::Base.configurations[:development] = {
 }
 
 
-
 ActiveRecord::Base.configurations[:production] = {
-    :adapter  => 'postgresql',
-    :encoding => 'utf8',
-
-    url: ENV['DATABASE_URL']
+    :url  => ENV['DATABASE_URL']
 }
-
 
 # Setup our logger
 ActiveRecord::Base.logger = logger
