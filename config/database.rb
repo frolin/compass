@@ -20,6 +20,7 @@ ActiveRecord::Base.configurations[:development] = {
 }
 
 
+
 ActiveRecord::Base.configurations[:production] = {
     :adapter  => 'postgresql',
     :encoding => 'utf8',
@@ -29,6 +30,7 @@ ActiveRecord::Base.configurations[:production] = {
     :host     => 'ec2-54-217-202-110.eu-west-1.compute.amazonaws.com',
     :port     => '5432'
 }
+
 
 # Setup our logger
 ActiveRecord::Base.logger = logger
