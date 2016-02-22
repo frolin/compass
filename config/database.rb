@@ -21,7 +21,13 @@ ActiveRecord::Base.configurations[:development] = {
 
 
 ActiveRecord::Base.configurations[:production] = {
-    :url  => ENV['DATABASE_URL']
+    :adapter  => 'postgresql',
+    :encoding => 'utf8',
+    :database => 'd191jctn3n5vbe',
+    :username => 'hwnlauihyckvjb',
+    :password => 'BQYs-w4rgM_rb5_AUUR6zR-f91',
+    :host     => 'ec2-54-217-202-110.eu-west-1.compute.amazonaws.com',
+    :port     => '5432'
 }
 
 # Setup our logger

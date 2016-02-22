@@ -15,8 +15,8 @@ gem 'rake'
 gem 'thin'
 # Component requirements
 gem 'bcrypt'
-gem 'dotenv'
-gem 'dotenv-heroku'
+# gem 'dotenv'
+# gem 'dotenv-heroku'
 
 group :development do
   gem 'compass'

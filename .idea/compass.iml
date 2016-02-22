@@ -87,8 +87,6 @@
     <orderEntry type="library" scope="PROVIDED" name="daemons (v1.2.3, RVM: ruby-2.2.1 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="database_cleaner (v1.5.1, RVM: ruby-2.2.1 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.5, RVM: ruby-2.2.1 [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="dotenv (v2.0.2, RVM: ruby-2.2.1 [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="dotenv-heroku (v0.0.1, RVM: ruby-2.2.1 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="eventmachine (v1.0.8, RVM: ruby-2.2.1 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="factory_girl (v4.5.0, RVM: ruby-2.2.1 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.9.10, RVM: ruby-2.2.1 [global]) [gem]" level="application" />

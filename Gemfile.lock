@@ -36,9 +36,6 @@ GEM
     daemons (1.2.3)
     database_cleaner (1.5.1)
     diff-lcs (1.2.5)
-    dotenv (2.0.2)
-    dotenv-heroku (0.0.1)
-      rake
     eventmachine (1.0.8)
     factory_girl (4.5.0)
       activesupport (>= 3.0.0)
@@ -160,8 +157,6 @@ DEPENDENCIES
   breakpoint
   compass
   database_cleaner
-  dotenv
-  dotenv-heroku
   factory_girl (~> 4.0)
   haml
   padrino (= 0.12.5)
