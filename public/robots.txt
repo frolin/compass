@@ -1,3 +1,2 @@
-User-Agent: *
-Host: maslov-service.ru
-Sitemap: http://maslov-service.ru/sitemap.xml
+User-agent: *
+Disallow: /
