@@ -1,14 +1,30 @@
 ##
 # You can use other adapters like:
 
-ActiveRecord::Base.configurations[Padrino.env] = {
-    adapter:   'postgresql',
-    database:  ENV['POSTGRESQL_DATABASE'],
-    username:  ENV['POSTGRESQL_USER'],
-    password:  ENV['POSTGRESQL_PASSWORD'],
-    host:      ENV['POSTGRESQL_HOST'],
-    port:      5432
+ActiveRecord::Base.configurations[:test] = {
+    :adapter  => 'postgresql',
+    :encoding => 'utf8',
+    :database => 'test_maslov-service',
+    :username => 'postgres',
+    :password => '',
+    :host     => 'localhost'
 }
+
+ActiveRecord::Base.configurations[:development] = {
+    :adapter  => 'postgresql',
+    :encoding => 'utf8',
+    :database => 'maslov-service',
+    :username => 'postgres',
+    :password => '',
+    :host     => 'localhost'
+}
+
+
+
+ActiveRecord::Base.configurations[:production] = {
+    url: ENV['DATABASE_URL']
+}
+
 
 # Setup our logger
 ActiveRecord::Base.logger = logger
