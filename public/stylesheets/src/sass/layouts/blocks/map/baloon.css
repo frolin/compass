@@ -1,0 +1,41 @@
+/* line 1, ../../../../../../../app/assets/src/sass/layouts/blocks/map/baloon.scss */
+h3.baloon-title {
+  font-size: 1rem;
+  font-family: BebasRegular;
+  margin-bottom: 0px;
+  line-height: 1.2rem;
+}
+
+/* line 8, ../../../../../../../app/assets/src/sass/layouts/blocks/map/baloon.scss */
+.baloon-address {
+  font-size: .7rem;
+}
+
+/* line 11, ../../../../../../../app/assets/src/sass/layouts/blocks/map/baloon.scss */
+.baloon-clock-work {
+  font-size: .7rem;
+}
+
+/* line 14, ../../../../../../../app/assets/src/sass/layouts/blocks/map/baloon.scss */
+.baloon-auto-work {
+  color: red;
+  font-size: .7rem;
+  margin-left: 10px;
+}
+
+/* line 19, ../../../../../../../app/assets/src/sass/layouts/blocks/map/baloon.scss */
+.baloon-telephone {
+  font-size: .7rem;
+}
+
+/* line 23, ../../../../../../../app/assets/src/sass/layouts/blocks/map/baloon.scss */
+.baloon-route {
+  font-size: .8rem;
+  position: absolute;
+  bottom: 10px;
+  color: #293a4b;
+}
+/* line 28, ../../../../../../../app/assets/src/sass/layouts/blocks/map/baloon.scss */
+.baloon-route:hover {
+  color: #b33528;
+}

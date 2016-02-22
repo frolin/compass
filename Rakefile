@@ -1,5 +1,6 @@
 require 'bundler/setup'
 require 'padrino-core/cli/rake'
+require "dotenv-heroku/tasks"
 
 require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new(:spec)
